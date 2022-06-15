@@ -1,0 +1,326 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
+
+
+# Make data base, printed on Wed Jun 15 11:39:35 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+RUBY_VERSION = ruby-3.0.0
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+LC_CTYPE = UTF-8
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+CPPFLAGS = -I/usr/local/opt/qt/include
+# environment
+rvm_path = /Users/sergioramos/.rvm
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/sergioramos/dev/dev-flutter/flutter_opencv
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# environment
+VSCODE_PID = 3399
+# makefile
+MAKEFILE_LIST := 
+# environment
+rvm_ruby_mode = 
+# environment
+rvm_ruby_make = 
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/my/gh35rs6n6l9b9bs5hrs2nr780000gn/T/vscode-ipc-9e810f07-b42f-48da-86cc-da78796be11f.sock
+# environment
+VSCODE_CWD = /Users/sergioramos/dev/dev-flutter/image_cropper_example
+# environment
+GOHOME = /usr/local/go
+# environment
+rvm_pretty_print_flag = 
+# environment
+ANDROID_SDK = /Users/sergioramos/Library/Android/sdk
+# environment
+PATH = /Users/sergioramos/.rvm/gems/ruby-3.0.0/bin:/Users/sergioramos/.rvm/gems/ruby-3.0.0@global/bin:/Users/sergioramos/.rvm/rubies/ruby-3.0.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/usr/local/MacGPG2/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/git/bin:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/usr/local/sbin:/Users/sergioramos/.cargo/bin:/Users/sergioramos/opt/anaconda3/condabin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/opt/qt/bin:/Users/sergioramos/.platformio/penv/bin:/Users/sergioramos/dev/dev-flutter/flutter/bin:/Users/sergioramos/Library/Android/sdk/tools:/Users/sergioramos/Library/Android/sdk/tools/bin:/Users/sergioramos/Library/Android/sdk/platform-tools:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/sergioramos/Library/Android/sdk/tools:/Users/sergioramos/Library/Android/sdk/platform-tools:/Users/sergioramos/Library/Android/ndk:/Users/sergioramos/Projects/GoWork/bin:/Users/sergioramos/.gem/ruby/3.0.0/bin:/usr/local/mysql/bin:/usr/local/apache-maven-3.5.2/bin:/Users/sergioramos/.rvm/bin
+# environment
+rvm_niceness = 
+# environment
+GOPATH = /Users/sergioramos/Projects/GoWork
+# environment
+rvm_only_path_flag = 
+# environment
+rvm_gemstone_package_file = 
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+LDFLAGS = -L/usr/local/opt/qt/lib
+# environment
+rvm_alias_expanded = 
+# environment
+ANDROID_HOME = /Users/sergioramos/Library/Android/sdk
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Idx66kb5kt/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_EXE = /Users/sergioramos/opt/anaconda3/bin/conda
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+ANDROID_NDK = /Users/sergioramos/Library/Android/ndk
+# environment
+rvm_bin_path = /Users/sergioramos/.rvm/bin
+# environment
+PWD = /Users/sergioramos/dev/dev-flutter/flutter_opencv
+# environment
+GEM_HOME = /Users/sergioramos/.rvm/gems/ruby-3.0.0
+# environment
+rvm_docs_type = 
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/sergioramos
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/sergioramos/Library/Application Support/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+LOGNAME = sergioramos
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+rvm_proxy = 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+rvm_ruby_bits = 
+# environment
+GEM_PATH = /Users/sergioramos/.rvm/gems/ruby-3.0.0:/Users/sergioramos/.rvm/gems/ruby-3.0.0@global
+# environment
+XPC_FLAGS = 0x0
+# environment
+rvm_ruby_make_install = 
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+IRBRC = /Users/sergioramos/.rvm/rubies/ruby-3.0.0/.irbrc
+# environment
+SHLVL = 3
+# environment
+rvm_quiet_flag = 
+# environment
+JAVA_HOME = /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = sergioramos
+# makefile
+ 
+.DEFAULT_GOAL := 
+# environment
+TERM_SESSION_ID = 816550EC-B401-46EE-A480-FC0DC3C29614
+# environment
+rvm_version = 1.29.12 (latest)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 0
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# environment
+TERM_PROGRAM = Apple_Terminal
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/my/gh35rs6n6l9b9bs5hrs2nr780000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/sergioramos/Library/Application Support/Code/1.68.0-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 433
+# environment
+rvm_script_name = 
+# environment
+XPC_SERVICE_NAME = 0
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+rvm_sdk = 
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+rvm_silent_flag = 
+# environment
+rvm_gemstone_url = 
+# environment
+LC_ALL = C
+# environment
+rvm_bin_flag = 
+# environment
+CONDA_PYTHON_EXE = /Users/sergioramos/opt/anaconda3/bin/python
+# automatic
+^F = $(notdir $^)
+# environment
+rvm_prefix = /Users/sergioramos
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# environment
+rvm_ruby_file = 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+rvm_use_flag = 
+# environment
+rvm_hook = 
+# environment
+MY_RUBY_HOME = /Users/sergioramos/.rvm/rubies/ruby-3.0.0
+# environment
+_CE_CONDA = 
+# environment
+rvm_nightly_flag = 
+# variable set hash-table stats:
+# Load=111/1024=11%, Rehash=0, Collisions=5/132=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777222, inode 8977800124): 22 files, no impossibilities.
+
+# 22 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/17=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+ 
+
+# Finished Make data base on Wed Jun 15 11:39:35 2022
+
+ 
